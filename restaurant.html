@@ -12,13 +12,15 @@
     <script src="//assets.codepen.io/assets/common/stopExecutionOnTimeout.js?t=1"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script>
-      $(".button").click(function () {
-        $("#sForm").toggleClass("open");   
-      });
+      $(document).ready(function(){
+        $(".button").click(function () {
+          $("#sForm").toggleClass("open");   
+        });
 
-      $(".controlTd").click(function () {
-        $(this).children(".settingsIcons").toggleClass("display"); 
-        $(this).children(".settingsIcon").toggleClass("openIcon"); 
+        $(".controlTd").click(function () {
+          $(this).children(".settingsIcons").toggleClass("display"); 
+          $(this).children(".settingsIcon").toggleClass("openIcon"); 
+        });
       });
     </script>
   </head>
