@@ -64,7 +64,7 @@ body {
 .sForm .close {
   float: right;
   width:80px;
-  height:70px;
+  height:20px;
   box-sizing: border-box;
   background: rgba(255, 0, 0, 0.4);
 }
