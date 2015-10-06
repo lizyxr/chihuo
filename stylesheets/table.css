@@ -49,7 +49,10 @@ body {
   text-align: center;
   cursor: pointer;
 }
-.sForm {
+.hide{
+  display: none;
+}
+/*.sForm {
   position: absolute;
   top: 0;
   right: -400px;
@@ -74,7 +77,7 @@ body {
   padding-left: 20px;
   box-sizing: border-box;
   background: rgba(0, 0, 0, 0.1);
-}
+}*/
 .open {
   right: 0;
   width: 400px !important;
