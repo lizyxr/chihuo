@@ -19,6 +19,7 @@
   $(".floating-placeholder input").keydown(updateText);
   $(".floating-placeholder input").change(updateText);
 });*/
+var $TABLE = $('#restaurantList');
 $(document).ready(function(){
   $(".table-add").click(function () { 
     var $clone = $TABLE.find('tr.hide').clone(true).removeClass('hide table-line');
