@@ -22,8 +22,11 @@
 $(document).ready(function(){
   var $TABLE = $('#restaurantList');
   $(".table-add").click(function () { 
+    console.log('111');
     var $clone = $TABLE.find('tr.hide').clone(true).removeClass('hide table-line');
+    console.log('222');
     $TABLE.find('flatTable').append($clone);
+    console.log('333');
   });
   $('.table-remove').click(function () {
     $(this).parents('tr').detach();
