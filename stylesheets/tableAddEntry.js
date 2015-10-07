@@ -19,16 +19,15 @@
   $(".floating-placeholder input").keydown(updateText);
   $(".floating-placeholder input").change(updateText);
 });*/
-/*$(document).ready(function(){*/
+$(document).ready(function(){
   var $TABLE = $('#restaurantList');
   $(".table-add").click(function () { 
-    console.log($TABLE);
-    var $clone = $TABLE.find('tr.hide').clone().removeClass('hide');
-    console.log($clone);
+    var $clone = $TABLE.find('tr.hide').clone(true).removeClass('hide');
+    console.log($TABLE.find('tr.hide').clone());
     $TABLE.find('flatTable').append($clone);
     console.log($TABLE.find('flatTable'));
   });
   $('.table-remove').click(function () {
     $(this).parents('tr').detach();
   });
-//});
+});
