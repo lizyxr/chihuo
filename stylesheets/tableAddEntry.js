@@ -25,7 +25,7 @@ $(document).ready(function(){
     var $clone = $TABLE.find('tr.hide').clone(true).removeClass('hide');
     console.log($TABLE.find('tr.hide').clone());
     $('flatTable').append($clone);
-    console.log($TABLE.find('flatTable'));
+    console.log($('flatTable'));
   });
   $('.table-remove').click(function () {
     $(this).parents('tr').detach();
