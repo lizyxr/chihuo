@@ -23,7 +23,7 @@ $(document).ready(function(){
   var $TABLE = $('#restaurantList');
   $(".table-add").click(function () { 
     console.log($TABLE);
-    var $clone = $TABLE.find('tr.hide').clone(true).removeClass('hide');
+    var $clone = "<p>This is another paragraph.</p>";/*$TABLE.find('tr.hide').clone().removeClass('hide');*/
     console.log($clone);
     $TABLE.find('flatTable').append($clone);
     console.log($TABLE.find('flatTable'));
