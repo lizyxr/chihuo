@@ -23,9 +23,7 @@ $(document).ready(function(){
   var $TABLE = $('#restaurantList');
   $(".table-add").click(function () { 
     var $clone = $TABLE.find('tr.hide').clone(true).removeClass('hide');
-    console.log($TABLE.find('tr.hide').clone());
-    $('table.flatTable').append($clone);
-    console.log($('table.flatTable'));
+    $TABLE.find('table.flatTable').append($clone);
   });
   $('.table-remove').click(function () {
     $(this).parents('tr').detach();
