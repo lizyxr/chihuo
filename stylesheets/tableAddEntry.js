@@ -19,11 +19,11 @@
   $(".floating-placeholder input").keydown(updateText);
   $(".floating-placeholder input").change(updateText);
 });*/
-$(document).ready(function(){
+/*$(document).ready(function(){*/
   var $TABLE = $('#restaurantList');
   $(".table-add").click(function () { 
     console.log($TABLE);
-    var $clone = "<p>This is another paragraph.</p>";/*$TABLE.find('tr.hide').clone().removeClass('hide');*/
+    var $clone = $TABLE.find('tr.hide').clone().removeClass('hide');
     console.log($clone);
     $TABLE.find('flatTable').append($clone);
     console.log($TABLE.find('flatTable'));
@@ -31,4 +31,4 @@ $(document).ready(function(){
   $('.table-remove').click(function () {
     $(this).parents('tr').detach();
   });
-});
+//});
