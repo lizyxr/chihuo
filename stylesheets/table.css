@@ -50,7 +50,7 @@ body {
   cursor: pointer;
 }
 .hide{
-  /*display: none;*/
+  display: none;
 }
 /*.sForm {
   position: absolute;
