@@ -27,5 +27,9 @@ $(document).ready(function(){
   });
   $('.table-remove').click(function () {
     $(this).parents('tr').detach();
+  });  
+  $(".controlTd").click(function () {
+    $(this).children(".settingsIcons").toggleClass("display"); 
+    $(this).children(".settingsIcon").toggleClass("openIcon"); 
   });
 });
