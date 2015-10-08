@@ -22,14 +22,10 @@
 $(document).ready(function(){
   var $TABLE = $('#restaurantList');
   $(".table-add").click(function () { 
-    var $clone = $TABLE.find('tr.hide').clone(true).removeClass('hide');
-    $TABLE.find('table.flatTable').append($clone);
+    var $clone = $TABLE.find('tr.cloneTr').clone(true).removeClass('cloneTr');
+    $TABLE.append($clone);
   });
   $('.table-remove').click(function () {
     $(this).parents('tr').detach();
   });  
-  $(".controlTd").click(function () {
-    $(this).children(".settingsIcons").toggleClass("display"); 
-    $(this).children(".settingsIcon").toggleClass("openIcon"); 
-  });
 });
