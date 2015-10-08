@@ -262,7 +262,7 @@ div.navButtons button {
   background: #ff9758;
   cursor: pointer;
 }
-div.navButtons .newList, div.navButtons .purchasedBtn {
+div.navButtons .table-add, div.navButtons .purchasedBtn {
   right: 112px;
 }
 div.navButtons .deleteList, div.navButtons .favoritesBtn {
@@ -358,7 +358,7 @@ div.navButtons .searchBtn {
   line-height: auto;
 }
 
-.newList:before {
+.table-add:before {
   content: '\e812';
   font-family: "to-gocery";
   font-size: 28px;
