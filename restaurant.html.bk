@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Chihuo by lizyxr</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link rel='stylesheet' type='text/css' href="stylesheets/table.css" media="screen">
+    <link rel='stylesheet' type='text/css' href="stylesheets/newForm.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="stylesheets/tableAddEntry.js"></script>
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Restaurant List</h1>
+      <h2 class="project-tagline"></h2>
+    </section>
+
+    <section class="main-content">
+      <div id="restaurantList">
+        <table class="flatTable">
+          <tr class="titleTr">
+            <!--<td class="titleTd"></td>-->
+            <td colspan="5"></td>
+            <td class="controlTd">
+              <div class="settingsIcons">
+                <!--<span class="settingsIcon table-remove"><img src="http://i.imgur.com/nnzONel.png" alt="X" /></span>-->
+                <span class="settingsIcon table-add"><img src="http://i.imgur.com/3hSkhay.png" alt="+" /></span>
+                <span class="settingsIcon table-update"><img src="http://i.imgur.com/UAdSFIg.png" alt="placeholder icon" /></span>
+              </div>
+            </td>
+            <!--<td class="plusTd button table-add"></td>-->
+          </tr>
+          <tr class="headingTr">
+            <td>NAME</td>
+            <td>ADDRESS</td>
+            <td>CATEGORY</td>
+            <td>EXPENSE</td>
+            <td>COMMENTS</td>
+            <td></td>
+          </tr>
+  
+          <tr>
+            <td>#2331212</td>
+            <td>Feb 21,2013</td>
+            <td>White Out</td>
+            <td>$2,000</td>
+            <td>Paid</td>
+            <td  class="settingsIcon table-remove">
+              <img src="http://i.imgur.com/nnzONel.png" alt="X" />
+            </td>
+          </tr>        
+  
+          <tr class="hide">
+            <td>name</td>
+            <td>address</td>
+            <td>category</td>
+            <td>expense</td>
+            <td>comments</td>
+            <td  class="settingsIcon table-remove">
+              <img src="http://i.imgur.com/nnzONel.png" alt="X" />
+            </td>
+          </tr>
+        </table>
+      </div>
+      <!-- add new form/ fancy new form not used here -->
+      <!-- 
+      <div id="sForm" class="sForm sFormPadding">
+        <span class="button close"><img src="http://i.imgur.com/nnzONel.png" alt="X"  class="" /></span>
+        <h2 class="title">Add a New Record</h2>
+        <div class="floating-placeholder"> 
+          <input id="addName" type="text" name="name">  
+          <label for="addName">name</label>
+        </div>
+        <div class="floating-placeholder"> 
+          <input id="addAddress" type="text" name="address">
+          <label for="addAddress">address</label>
+        </div>
+        <div class="floating-placeholder"> 
+          <input id="addCategory" type="text" name="category"> 
+          <label for="addCategory">category</label>
+        </div>
+        <div class="floating-placeholder"> 
+          <input id="addExpense" type="text" name="expense"> 
+          <label for="addExpense">expense</label>
+        </div>
+        <div class="floating-placeholder"> 
+          <input id="addComments" type="text" name="comments"> 
+          <label for="addComments">comments</label>
+        </div>
+      </div>
+      -->
+    </section>
+    
+  </body>
+</html>
