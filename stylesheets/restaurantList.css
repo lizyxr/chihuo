@@ -611,6 +611,7 @@ div.content > p:before {
   color: #fff;
   font-size: 18px;
   text-indent: 2px;
+  text-align: left;
 }
 
 .listCreationDetails {
