@@ -21,11 +21,9 @@
 });*/
 $(document).ready(function(){
   var $TABLE = $('#restaurantList');
-  $(".table-add").click(function () { 
-    console.log("111");
+  $(".table-add").click(function () {
     var $clone = $TABLE.find('tr.cloneTr').clone(true).removeClass('cloneTr');
-    console.log("222");
-    $TABLE.append($clone);    console.log("333");
+    $TABLE.append($clone);  
   });
   $('.table-remove').click(function () {
     $(this).parents('tr').detach();
