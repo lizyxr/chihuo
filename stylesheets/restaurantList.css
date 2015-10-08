@@ -631,6 +631,7 @@ div.content > p:before {
   list-style: none;
   left: 11px;
   line-height: 25px;
+  padding-top: 10px;
 }
 
 .itemName {
