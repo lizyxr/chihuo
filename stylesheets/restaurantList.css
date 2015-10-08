@@ -582,6 +582,7 @@ div.content > p:before {
   color: #fff;
   font-size: 18px;
   text-indent: 2px;
+  text-align: left;
 }
 
 .listCreationDetails {
@@ -605,13 +606,6 @@ div.content > p:before {
   top: 20px;
   left: 10px;
   background: #3a3939;
-}
-
-.listName > h1 {
-  color: #fff;
-  font-size: 18px;
-  text-indent: 2px;
-  text-align: left;
 }
 
 .listCreationDetails {
