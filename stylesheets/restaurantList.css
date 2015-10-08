@@ -578,7 +578,7 @@ div.content > p:before {
   background: #3a3939;
 }
 
-.listName > h1 {
+.listName > th {
   color: #fff;
   font-size: 18px;
   text-indent: 2px;
