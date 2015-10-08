@@ -624,7 +624,7 @@ div.content > p:before {
   text-align: right;
 }
 
-#orderList {
+#restaurantList {
   position: relative;
   width: 100%;
   list-style: none;
