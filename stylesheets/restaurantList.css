@@ -619,6 +619,10 @@ div.content > p:before {
   text-align: right;
 }
 
+.cloneTr{
+  display: none;
+}
+
 #restaurantList {
   position: relative;
   width: 100%;
