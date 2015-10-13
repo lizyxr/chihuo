@@ -377,6 +377,13 @@ div.navButtons .searchBtn {
   color: #e5e5e5;
 }
 
+.table-save:before{
+  content: '\f0c7';
+  font-family: "FontAwesome";
+  font-size: 28px;
+  color: #e5e5e5;
+}
+
 .deleteList:before {
   content: "\e813";
   font-family: "to-gocery";
