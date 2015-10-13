@@ -30,7 +30,7 @@ $(document).ready(function(){
     $btn.removeClass('table-modify');
     $btn.addClass("table-save");  
   });
-  $(".table-save").live("click", function () {
+  $(".table-save").on("click", function () {
     console.log("111");
     var $btn = $(".table-save");    
     console.log("222");   
