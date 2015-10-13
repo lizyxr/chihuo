@@ -32,7 +32,7 @@ $(document).ready(function(){
   });
   $(".table-save").click(function () {
     var $btn2 = $(".table-save");
-    $btn2.removeClass('able-save');
+    $btn2.removeClass('table-save');
     $btn2.addClass("table-modify");
   });
   $('.table-remove').click(function () {
