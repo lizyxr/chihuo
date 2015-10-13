@@ -28,9 +28,8 @@ $(document).ready(function(){
   $(".table-modify").click(function () {
     var $btn1 = $(".table-modify");
     $btn1.removeClass('table-modify');
-    $btn1.addClass("table-save");
-  });
-  $(".table-save").click(function () {
+    $btn1.addClass("table-save");  
+    $(".table-save").click(function () {
     console.log("111");
     var $btn2 = $(".table-save");    
     console.log("222");   
@@ -41,6 +40,7 @@ $(document).ready(function(){
     $btn2.addClass("table-modify");
     console.log("444");
     console.log($btn2);
+    });
   });
   $('.table-remove').click(function () {
     $(this).parents('tr').detach();
