@@ -26,14 +26,14 @@ $(document).ready(function(){
     $TABLE.append($clone);  
   });
   $(".table-modify").click(function () {
-    var $btn = $(".table-modify");
-    $btn.removeClass('table-modify');
-    $btn.addClass("table-save");
+    var $btn1 = $(".table-modify");
+    $btn1.removeClass('table-modify');
+    $btn1.addClass("table-save");
   });
   $(".table-save").click(function () {
-    var $btn = $(".table-save");
-    $btn.removeClass('able-save');
-    $btn.addClass("table-modify");
+    var $btn2 = $(".table-save");
+    $btn2.removeClass('able-save');
+    $btn2.addClass("table-modify");
   });
   $('.table-remove').click(function () {
     $(this).parents('tr').detach();
