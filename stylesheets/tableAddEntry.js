@@ -25,6 +25,16 @@ $(document).ready(function(){
     var $clone = $TABLE.find('tr.cloneTr').clone(true).removeClass('cloneTr');
     $TABLE.append($clone);  
   });
+  $(".table-modify").click(function () {
+    var $btn = $(".table-modify");
+    $btn.removeClass('table-modify');
+    $btn.addClass("table-save");
+  });
+  $(".table-save").click(function () {
+    var $btn = $(".table-save");
+    $btn.removeClass('table-save');
+    $btn.addClass("table-modify");
+  });
   $('.table-remove').click(function () {
     $(this).parents('tr').detach();
   });  
