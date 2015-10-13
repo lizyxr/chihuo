@@ -266,7 +266,7 @@ div.navButtons .table-add, div.navButtons .purchasedBtn {
   right: 158px;
 }
 
-div.navButtons .table-modify, div.navButtons .purchasedBtn {
+div.navButtons .table-modify, div.navButtons .table-save, div.navButtons .purchasedBtn {
   right: 112px;
 }
 
