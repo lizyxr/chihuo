@@ -263,8 +263,13 @@ div.navButtons button {
   cursor: pointer;
 }
 div.navButtons .table-add, div.navButtons .purchasedBtn {
+  right: 158px;
+}
+
+div.navButtons .table-modify, div.navButtons .purchasedBtn {
   right: 112px;
 }
+
 div.navButtons .deleteList, div.navButtons .favoritesBtn {
   right: 66px;
 }
