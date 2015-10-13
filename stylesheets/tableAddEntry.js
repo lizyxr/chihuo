@@ -26,21 +26,12 @@ $(document).ready(function(){
     $TABLE.append($clone);  
   });
   $(".table-modify").click(function () {
-    var $btn = $(".table-modify");
-    $btn.removeClass('table-modify');
-    $btn.addClass("table-save");  
+    $(".table-modify").addClass('hide');
+    $(".table-save").removeClass('hide');  
   });
-  $(".table-save").on("click", function () {
-    console.log("111");
-    var $btn = $(".table-save");    
-    console.log("222");   
-    console.log($btn2);
-    $btn.removeClass('table-save');
-    console.log("333");    
-    console.log($btn2);
-    $btn.addClass("table-modify");
-    console.log("444");
-    console.log($btn2);
+  $(".table-save").click(function () {
+    $(".table-save").addClass('hide');
+    $(".table-modify").removeClass('hide');  
   });
   $('.table-remove').click(function () {
     $(this).parents('tr').detach();
