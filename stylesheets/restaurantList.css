@@ -371,7 +371,6 @@ div.navButtons .searchBtn {
 }
 
 .table-modify:before{
-  content:'\f040';  
   font-family: "to-gocery";
   font-size: 28px;
   color: #e5e5e5;
