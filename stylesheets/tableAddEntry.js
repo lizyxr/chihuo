@@ -31,9 +31,16 @@ $(document).ready(function(){
     $btn1.addClass("table-save");
   });
   $(".table-save").click(function () {
-    var $btn2 = $(".table-save");
+    console.log("111");
+    var $btn2 = $(".table-save");    
+    console.log("222");   
+    console.log($btn2);
     $btn2.removeClass('table-save');
+    console.log("333");    
+    console.log($btn2);
     $btn2.addClass("table-modify");
+    console.log("444");
+    console.log($btn2);
   });
   $('.table-remove').click(function () {
     $(this).parents('tr').detach();
