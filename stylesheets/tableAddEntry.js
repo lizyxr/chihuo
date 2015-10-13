@@ -25,15 +25,15 @@ $(document).ready(function(){
     var $clone = $TABLE.find('tr.cloneTr').clone(true).removeClass('cloneTr');
     $TABLE.append($clone);  
   });
-  $(".icon-pencil").click(function () {
+  $(".table-modify").click(function () {
     var $btn = $(".table-modify");
-    $btn.removeClass('icon-pencil');
-    $btn.addClass("icon-save");
+    $btn.removeClass('table-modify');
+    $btn.addClass("table-save");
   });
-  $(".icon-save").click(function () {
-    var $btn = $(".table-modify");
-    $btn.removeClass('icon-save');
-    $btn.addClass("icon-pencil");
+  $(".table-save").click(function () {
+    var $btn = $(".table-save");
+    $btn.removeClass('able-save');
+    $btn.addClass("table-modify");
   });
   $('.table-remove').click(function () {
     $(this).parents('tr').detach();
