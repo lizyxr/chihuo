@@ -27,11 +27,13 @@ $(document).ready(function(){
   });
   $(".table-modify").click(function () {
     $(".table-modify").addClass('hide');
-    $(".table-save").removeClass('hide');  
+    $(".table-save").removeClass('hide');
+    $(".editableCell").each(function() {$( this ).attr("contenteditable","true");});
   });
   $(".table-save").click(function () {
     $(".table-save").addClass('hide');
     $(".table-modify").removeClass('hide');  
+    $(".editableCell").each(function() {$( this ).attr("contenteditable","false");});
   });
   $('.table-remove').click(function () {
     $(this).parents('tr').detach();
