@@ -28,7 +28,8 @@ $(document).ready(function(){
   $(".table-modify").click(function () {
     $(".table-modify").addClass('hide');
     $(".table-save").removeClass('hide');
-    $(".editableCell").each(function() {$( this ).removeClass('hide');});
+    $(".editableCell").each(function() {$( this ).attr("contenteditable","true");});
+    $(".editableCell").each(function() {$( this ).addClass('hide');});
   });
   $(".table-save").click(function () {
     $(".table-save").addClass('hide');
