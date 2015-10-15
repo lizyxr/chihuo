@@ -28,14 +28,13 @@ $(document).ready(function(){
   $(".table-modify").click(function () {
     $(".table-modify").addClass('hide');
     $(".table-save").removeClass('hide');
-    $(".editableCell").each(function() {$( this ).attr("contenteditable","true");});
-    $(".deletable").each(function() {$( this ).attr("type","checkbox");});
+    $(".editableCell").each(function() {$( this ).removeClass('hide');});
   });
   $(".table-save").click(function () {
     $(".table-save").addClass('hide');
     $(".table-modify").removeClass('hide');  
     $(".editableCell").each(function() {$( this ).attr("contenteditable","false");});    
-    $(".deletable").each(function() {$( this ).removeAttr("type");});
+    $(".deletable").each(function() {$( this ).addClass('hide');});
   });
   $('.table-remove').click(function () {
     $(this).parents('tr').detach();
